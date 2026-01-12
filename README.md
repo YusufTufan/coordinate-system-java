@@ -7,36 +7,21 @@ This project is a simple **Coordinate System** application developed using **Jav
 
 ## 🧩 Features
 
-- 📌 Define and manipulate points in a 2D coordinate system  
-- ➕ Perform basic operations: distance, midpoint, etc.  
-- 🧠 Uses OOP concepts: Classes, Encapsulation, Inheritance  
-- 🖥️ Console-based interaction for educational/demo purposes
+* **Point Management:** Define points with (x, y) coordinates.
+* **Line Segments:** Create lines connecting two points and calculate distances.
+* **PolyLine Support:** Handle connected series of line segments.
+* **Geometric Operations:** Calculate lengths, distances, and midpoints.
+* **OOP Design:** Utilizes composition and encapsulation efficiently.
 
 ---
 
-## 🛠 Technologies
+## 📂 Project Structure
 
-- Java (Standard Edition)
-- Object-Oriented Programming (OOP)
-- CLI (Command-Line Interface)
+* `Point.java`: Represents a point in 2D space.
+* `Line.java`: Represents a line segment defined by two points.
+* `PolyLine.java`: Represents a continuous line composed of multiple segments.
 
----
+📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-# 📍 Koordinat Sistemi – Java
-
-Bu proje, **Java** kullanılarak geliştirilmiş basit bir **Koordinat Sistemi** uygulamasıdır. İki boyutlu düzlemde nokta tanımlama ve işlemleri gerçekleştirme üzerine kuruludur.
-
----
-
-## 🧩 Özellikler
-
-- 📌 2D düzlemde nokta tanımlama ve düzenleme  
-- ➕ Uzaklık, orta nokta gibi temel geometrik işlemler  
-- 🧠 Sınıf yapıları, kapsülleme, kalıtım gibi OOP teknikleri  
-- 🖥️ Konsol tabanlı çalışma – eğitim veya demo amaçlı
-
----
-
-## 👨‍💻 Developer / Geliştirici
-
-**Yusuf Tufan**  
+Copyright (c) 2024 YusufTufan
